@@ -1,0 +1,31 @@
+{
+  "name": "agenthqtest",
+  "version": "1.0.0",
+  "description": "A REST API for managing GitHub Issues",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --testPathPatterns=tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksabass/agentHQtest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ksabass/agentHQtest/issues"
+  },
+  "homepage": "https://github.com/ksabass/agentHQtest#readme",
+  "dependencies": {
+    "@octokit/rest": "^22.0.1",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.2.2"
+  }
+}
