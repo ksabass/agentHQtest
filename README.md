@@ -1,4 +1,4 @@
-# agentHQtest
+# agentHQtest 🚀
 
 Minimal test repository used to validate issue and pull request workflow.
 
